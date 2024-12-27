@@ -42,23 +42,24 @@
             tbCash = new TextBox();
             Cash = new Label();
             tbChange = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
+            tb1000 = new TextBox();
+            tb500 = new TextBox();
+            tb100 = new TextBox();
+            tb50 = new TextBox();
+            tb20 = new TextBox();
+            tb10 = new TextBox();
+            tb5 = new TextBox();
+            tb1 = new TextBox();
             label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
+            lb1000 = new Label();
+            lb500 = new Label();
+            lb100 = new Label();
+            lb50 = new Label();
+            lb20 = new Label();
+            lb10 = new Label();
+            lb5 = new Label();
+            lb1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // chbCoffee
@@ -92,7 +93,7 @@
             // Total
             // 
             Total.AutoSize = true;
-            Total.Location = new Point(573, 57);
+            Total.Location = new Point(291, 210);
             Total.Name = "Total";
             Total.Size = new Size(32, 15);
             Total.TabIndex = 3;
@@ -109,7 +110,7 @@
             // 
             btCheckOut.Location = new Point(456, 61);
             btCheckOut.Name = "btCheckOut";
-            btCheckOut.Size = new Size(75, 377);
+            btCheckOut.Size = new Size(75, 106);
             btCheckOut.TabIndex = 5;
             btCheckOut.Text = "Check Out";
             btCheckOut.UseVisualStyleBackColor = true;
@@ -117,7 +118,7 @@
             // 
             // tbTotal
             // 
-            tbTotal.Location = new Point(611, 54);
+            tbTotal.Location = new Point(340, 207);
             tbTotal.Name = "tbTotal";
             tbTotal.Size = new Size(100, 23);
             tbTotal.TabIndex = 6;
@@ -156,7 +157,7 @@
             // 
             // tbCash
             // 
-            tbCash.Location = new Point(611, 83);
+            tbCash.Location = new Point(340, 282);
             tbCash.Name = "tbCash";
             tbCash.Size = new Size(100, 23);
             tbCash.TabIndex = 11;
@@ -164,7 +165,7 @@
             // Cash
             // 
             Cash.AutoSize = true;
-            Cash.Location = new Point(572, 86);
+            Cash.Location = new Point(293, 286);
             Cash.Name = "Cash";
             Cash.Size = new Size(33, 15);
             Cash.TabIndex = 12;
@@ -172,170 +173,181 @@
             // 
             // tbChange
             // 
-            tbChange.Location = new Point(611, 112);
+            tbChange.Location = new Point(615, 54);
             tbChange.Name = "tbChange";
             tbChange.Size = new Size(100, 23);
             tbChange.TabIndex = 13;
             // 
-            // textBox3
+            // tb1000
             // 
-            textBox3.Location = new Point(611, 141);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 14;
+            tb1000.Location = new Point(615, 83);
+            tb1000.Name = "tb1000";
+            tb1000.Size = new Size(100, 23);
+            tb1000.TabIndex = 14;
             // 
-            // textBox4
+            // tb500
             // 
-            textBox4.Location = new Point(611, 170);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 15;
+            tb500.Location = new Point(615, 112);
+            tb500.Name = "tb500";
+            tb500.Size = new Size(100, 23);
+            tb500.TabIndex = 15;
             // 
-            // textBox5
+            // tb100
             // 
-            textBox5.Location = new Point(611, 199);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 16;
+            tb100.Location = new Point(615, 141);
+            tb100.Name = "tb100";
+            tb100.Size = new Size(100, 23);
+            tb100.TabIndex = 16;
             // 
-            // textBox6
+            // tb50
             // 
-            textBox6.Location = new Point(611, 228);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 17;
+            tb50.Location = new Point(615, 170);
+            tb50.Name = "tb50";
+            tb50.Size = new Size(100, 23);
+            tb50.TabIndex = 17;
             // 
-            // textBox7
+            // tb20
             // 
-            textBox7.Location = new Point(611, 257);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 18;
+            tb20.Location = new Point(615, 199);
+            tb20.Name = "tb20";
+            tb20.Size = new Size(100, 23);
+            tb20.TabIndex = 18;
             // 
-            // textBox8
+            // tb10
             // 
-            textBox8.Location = new Point(611, 286);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(100, 23);
-            textBox8.TabIndex = 19;
+            tb10.Location = new Point(615, 228);
+            tb10.Name = "tb10";
+            tb10.Size = new Size(100, 23);
+            tb10.TabIndex = 19;
             // 
-            // textBox9
+            // tb5
             // 
-            textBox9.Location = new Point(611, 315);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 20;
+            tb5.Location = new Point(615, 257);
+            tb5.Name = "tb5";
+            tb5.Size = new Size(100, 23);
+            tb5.TabIndex = 20;
             // 
-            // textBox10
+            // tb1
             // 
-            textBox10.Location = new Point(611, 344);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 21;
+            tb1.Location = new Point(615, 286);
+            tb1.Name = "tb1";
+            tb1.Size = new Size(100, 23);
+            tb1.TabIndex = 21;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(557, 115);
+            label4.Location = new Point(561, 57);
             label4.Name = "label4";
             label4.Size = new Size(48, 15);
             label4.TabIndex = 22;
             label4.Text = "Change";
             // 
-            // label5
+            // lb1000
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(567, 144);
-            label5.Name = "label5";
-            label5.Size = new Size(31, 15);
-            label5.TabIndex = 23;
-            label5.Text = "1000";
+            lb1000.AutoSize = true;
+            lb1000.Location = new Point(571, 86);
+            lb1000.Name = "lb1000";
+            lb1000.Size = new Size(31, 15);
+            lb1000.TabIndex = 23;
+            lb1000.Text = "1000";
             // 
-            // label6
+            // lb500
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(567, 173);
-            label6.Name = "label6";
-            label6.Size = new Size(25, 15);
-            label6.TabIndex = 24;
-            label6.Text = "500";
+            lb500.AutoSize = true;
+            lb500.Location = new Point(571, 115);
+            lb500.Name = "lb500";
+            lb500.Size = new Size(25, 15);
+            lb500.TabIndex = 24;
+            lb500.Text = "500";
             // 
-            // label7
+            // lb100
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(567, 202);
-            label7.Name = "label7";
-            label7.Size = new Size(25, 15);
-            label7.TabIndex = 25;
-            label7.Text = "100";
+            lb100.AutoSize = true;
+            lb100.Location = new Point(571, 144);
+            lb100.Name = "lb100";
+            lb100.Size = new Size(25, 15);
+            lb100.TabIndex = 25;
+            lb100.Text = "100";
             // 
-            // label8
+            // lb50
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(567, 231);
-            label8.Name = "label8";
-            label8.Size = new Size(19, 15);
-            label8.TabIndex = 26;
-            label8.Text = "50";
+            lb50.AutoSize = true;
+            lb50.Location = new Point(571, 173);
+            lb50.Name = "lb50";
+            lb50.Size = new Size(19, 15);
+            lb50.TabIndex = 26;
+            lb50.Text = "50";
             // 
-            // label9
+            // lb20
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(567, 260);
-            label9.Name = "label9";
-            label9.Size = new Size(19, 15);
-            label9.TabIndex = 27;
-            label9.Text = "20";
+            lb20.AutoSize = true;
+            lb20.Location = new Point(571, 202);
+            lb20.Name = "lb20";
+            lb20.Size = new Size(19, 15);
+            lb20.TabIndex = 27;
+            lb20.Text = "20";
             // 
-            // label10
+            // lb10
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(567, 289);
-            label10.Name = "label10";
-            label10.Size = new Size(19, 15);
-            label10.TabIndex = 28;
-            label10.Text = "10";
+            lb10.AutoSize = true;
+            lb10.Location = new Point(571, 231);
+            lb10.Name = "lb10";
+            lb10.Size = new Size(19, 15);
+            lb10.TabIndex = 28;
+            lb10.Text = "10";
             // 
-            // label11
+            // lb5
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(568, 318);
-            label11.Name = "label11";
-            label11.Size = new Size(13, 15);
-            label11.TabIndex = 29;
-            label11.Text = "5";
+            lb5.AutoSize = true;
+            lb5.Location = new Point(572, 260);
+            lb5.Name = "lb5";
+            lb5.Size = new Size(13, 15);
+            lb5.TabIndex = 29;
+            lb5.Text = "5";
             // 
-            // label12
+            // lb1
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(568, 348);
-            label12.Name = "label12";
-            label12.Size = new Size(13, 15);
-            label12.TabIndex = 30;
-            label12.Text = "1";
+            lb1.AutoSize = true;
+            lb1.Location = new Point(572, 290);
+            lb1.Name = "lb1";
+            lb1.Size = new Size(13, 15);
+            lb1.TabIndex = 30;
+            lb1.Text = "1";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(456, 202);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 107);
+            button1.TabIndex = 31;
+            button1.Text = "pay";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
+            Controls.Add(button1);
+            Controls.Add(lb1);
+            Controls.Add(lb5);
+            Controls.Add(lb10);
+            Controls.Add(lb20);
+            Controls.Add(lb50);
+            Controls.Add(lb100);
+            Controls.Add(lb500);
+            Controls.Add(lb1000);
             Controls.Add(label4);
-            Controls.Add(textBox10);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
+            Controls.Add(tb1);
+            Controls.Add(tb5);
+            Controls.Add(tb10);
+            Controls.Add(tb20);
+            Controls.Add(tb50);
+            Controls.Add(tb100);
+            Controls.Add(tb500);
+            Controls.Add(tb1000);
             Controls.Add(tbChange);
             Controls.Add(Cash);
             Controls.Add(tbCash);
@@ -372,22 +384,23 @@
         private TextBox tbCash;
         private Label Cash;
         private TextBox tbChange;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
+        private TextBox tb1000;
+        private TextBox tb500;
+        private TextBox tb100;
+        private TextBox tb50;
+        private TextBox tb20;
+        private TextBox tb10;
+        private TextBox tb5;
+        private TextBox tb1;
         private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
+        private Label lb1000;
+        private Label lb500;
+        private Label lb100;
+        private Label lb50;
+        private Label lb20;
+        private Label lb10;
+        private Label lb5;
+        private Label lb1;
+        private Button button1;
     }
 }
